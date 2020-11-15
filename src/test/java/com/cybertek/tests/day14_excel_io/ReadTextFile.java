@@ -24,6 +24,8 @@ public class ReadTextFile {
         while (scanner.hasNext()){
             System.out.println(scanner.nextLine());
         }
+        System.out.println("---------------------------");
+
 //        ########################################
 
         String path2 = "grades.csv";
