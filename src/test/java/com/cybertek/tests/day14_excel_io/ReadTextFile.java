@@ -8,7 +8,7 @@ public class ReadTextFile {
 
     public static void main(String[] args) throws FileNotFoundException {
         //path to file that we want to read
-        String path = "shopping_list.txt";
+        String path = "shopping_list.txt"; //copy from content root
         //File's constructor requires path to the file as an argument
         File file = new File(path);
         //check if file exists
