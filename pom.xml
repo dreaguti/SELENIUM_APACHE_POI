@@ -44,6 +44,7 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <!--office 2007+ xlsx-->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -51,6 +52,7 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <!--before office 2007 xls-->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
