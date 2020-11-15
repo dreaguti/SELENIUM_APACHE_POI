@@ -12,19 +12,19 @@ public class ReadTextFile {
         //File's constructor requires path to the file as an argument
         File file = new File(path);
         //check if file exists
-        System.out.println(file.exists());
+        System.out.println(file.exists()); //boolean to see if file exists
+        System.out.println("--------------------------");
         //we can read lines of file with Scanner class
         //System.in - for keyboard input
         //file object - for reading file
         Scanner scanner = new Scanner(file);
-
         System.out.println(scanner.nextLine());
         System.out.println(scanner.nextLine());
 
         while (scanner.hasNext()){
             System.out.println(scanner.nextLine());
         }
-        System.out.println("---------------------------");
+        System.out.println("--------------------------");
 
 //        ########################################
 
