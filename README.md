@@ -7,4 +7,6 @@ added shopping_list.txt
 added ReadTextFile.java
 added grades.csv
 
+added POI dependency to POM.xml
+
 ..etc.
